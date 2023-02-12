@@ -1169,8 +1169,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hey man, listen...\nMy family is starving, \nI have a wife and a son,
-    \nwe can not wait any \nlonger for food!"
+  m_text: "Boy, I have worked \nfor this town my \nwhole life, \nnow it's time for
+    this \ntown to help me."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
   m_sharedMaterial: {fileID: 1550696025982443904, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
@@ -2449,9 +2449,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Please! My lord! \nI am willing to do any work \nthat you require of me.
-    \nI kindly request that you \nprovide \nmy younger sisters \nwith something to
-    eat... \nplease..."
+  m_text: Milord, I do not have much time to live, but please, I beg you... Help
+    my family!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
   m_sharedMaterial: {fileID: 1550696025982443904, guid: 70f754803ccee88408823c8a38fe0330, type: 2}

@@ -1150,7 +1150,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2905.1978, y: 1724.4004}
+  m_AnchoredPosition: {x: 2905.1978, y: 3359}
   m_SizeDelta: {x: 1414, y: -537.1281}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1099441567
@@ -1173,8 +1173,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hey man, listen...\nMy family is starving, \nI have a wife and a son,
-    \nwe can not wait any \nlonger for food!"
+  m_text: "Bailiff, sir, \nas you are aware, \nmy family is \ncurrently facing \ndifficult
+    circumstances.\nMy son is a quadriplegic,\nand we are starving. \nPlease, provide
+    us food!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
   m_sharedMaterial: {fileID: 1550696025982443904, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
@@ -2430,7 +2431,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -829, y: 1792}
+  m_AnchoredPosition: {x: -829, y: 2276}
   m_SizeDelta: {x: 3000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1733222167
@@ -2453,9 +2454,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Please! My lord! \nI am willing to do any work \nthat you require of me.
-    \nI kindly request that you \nprovide \nmy younger sisters \nwith something to
-    eat... \nplease..."
+  m_text: Milord, we are unable to walk the streets with confidence as the people
+    are claiming that my son is an in...valid and that it would be better for him
+    to...die rather than waste food. I am concerned for my son's life. Please...Give
+    us...Food.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
   m_sharedMaterial: {fileID: 1550696025982443904, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
