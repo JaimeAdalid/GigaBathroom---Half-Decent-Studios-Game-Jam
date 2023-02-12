@@ -1034,25 +1034,27 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'If you:
-
-    Gave food to family 1 - The family you had to deny food to
-    yesterday resorted to extreme measures to feed themselves. At night, they invaded
-    the home of the children you provided the supply, stole their food and killed
-    the members. The situation in the town is getting more desperate, and the people
-    are showing the worst of their nature.
-
-
-    Gave food to family 2 - In a desperate
-    attempt to feed their children, the father committed a terrible act and sold
-    one of his children in exchange for food for the other.
-
-
-    Gave food to family
-    3 - Even though they received the supplies, the old man passed away from old
-    age that same night. The father of the other family, desperate to save his loved
-    ones, made a choice to steal food from the storage. However, he was caught by
-    the guards on duty and sent to prison.'
+  m_text: "If you:\nGave food to family 1 - The family you had to deny food to yesterday
+    resorted to extreme measures to feed themselves. At night, they invaded the home
+    of the children you provided the supply, stole their food and killed the members.
+    The situation in the town is getting more desperate, and the people are showing
+    the worst of their nature.\n\nGave food to family 2 - In a desperate attempt
+    to feed their children, the father committed a terrible act and sold one of his
+    children in exchange for food for the other.\n\nGave food to family 3 - Even
+    though they received the supplies, the old man passed away from old age that
+    same night. The father of the other family, desperate to save his loved ones,
+    made a choice to steal food from the storage. However, he was caught by the guards
+    on duty and sent to prison. \nIf you:\nGave food to family 4 - The family resorted
+    to catching rats for food, but tragically, the rodents were carriers of various
+    diseases that infected the entire family and ultimately led to their demise.\nGave
+    food to family 5 - The family you were unable to provide with food yesterday
+    had a difficult time finding sustenance. They were forced to wander the streets
+    in search of anything they could eat. Unfortunately, the situation in the town
+    has grown increasingly dire, and some of the villagers have become hostile towards
+    those they perceive as a burden on the limited resources. The family's disabled
+    child was tragically targeted and killed by angry villagers who saw him as wasting
+    precious food.\nGave food to family 6 - Mothers can do the unthinkable to protect
+    their sons, even if it means killing the father to give him as food to them"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
   m_sharedMaterial: {fileID: 1550696025982443904, guid: 70f754803ccee88408823c8a38fe0330, type: 2}
@@ -1079,8 +1081,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 7
-  m_fontSizeBase: 7
+  m_fontSize: 3
+  m_fontSizeBase: 3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1115,7 +1117,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 57.20877, y: 8.98575, z: 53.037308, w: -102.27753}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

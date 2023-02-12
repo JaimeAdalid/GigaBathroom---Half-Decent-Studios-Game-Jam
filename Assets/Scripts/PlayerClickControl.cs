@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
+
 
 public class PlayerClickControl : MonoBehaviour
 {
@@ -18,7 +18,6 @@ public class PlayerClickControl : MonoBehaviour
         if (objectHide.activeSelf)
         {
             objectHide.SetActive(false); //Visibilidade do objeto (false)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         else
         {
