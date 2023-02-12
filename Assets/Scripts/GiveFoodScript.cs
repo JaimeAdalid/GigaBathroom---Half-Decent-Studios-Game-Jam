@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GiveFoodScript : MonoBehaviour
 {
@@ -23,17 +24,20 @@ public class GiveFoodScript : MonoBehaviour
         if (food01.activeSelf && food < 4 && Alimentar == true)
         {
             food01.SetActive(false); //Visibilidade do objeto (false)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         
         if (food02.activeSelf && food < 3 && Alimentar == true)
         {
             food02.SetActive(false); //Visibilidade do objeto (false)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
      
         if (food03.activeSelf && food < 2 && Alimentar == true)
         {
             food03.SetActive(false); //Visibilidade do objeto (false)
             Alimentar = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
         
     }
