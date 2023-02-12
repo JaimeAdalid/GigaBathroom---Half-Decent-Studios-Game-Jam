@@ -18,20 +18,22 @@ public class GiveFoodScript : MonoBehaviour
 
         food--;
 
-        if (food01.activeSelf && food == 3)
+
+
+        if (food01.activeSelf && food < 4 && Alimentar == true)
         {
             food01.SetActive(false); //Visibilidade do objeto (false)
-            Alimentar = false;
         }
         
-        if (food02.activeSelf && food == 2)
+        if (food02.activeSelf && food < 3 && Alimentar == true)
         {
             food02.SetActive(false); //Visibilidade do objeto (false)
         }
      
-        if (food03.activeSelf && food == 1)
+        if (food03.activeSelf && food < 2 && Alimentar == true)
         {
             food03.SetActive(false); //Visibilidade do objeto (false)
+            Alimentar = false;
         }
         
     }
